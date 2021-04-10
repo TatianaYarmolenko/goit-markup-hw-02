@@ -63,7 +63,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-white-color--);
+  color: var(--primary-white-color);
 }
 
 .section-title {
@@ -74,9 +74,12 @@ body {
 }
 
 .logo {
+  font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .logo-primary {
@@ -147,18 +150,16 @@ body {
   color: var(--primary-text-color);
 }
 
-.address {
-  font-style: inherit;
-}
-
 .map {
-  font-style: inherit;
   color: var(--primary-white-color);
 }
 
 .mail,
 .tel {
   color: rgba(255, 255, 255, 0.6);
+}
+.address {
+  font-style: inherit;
 }
 
 .dark-bg {
